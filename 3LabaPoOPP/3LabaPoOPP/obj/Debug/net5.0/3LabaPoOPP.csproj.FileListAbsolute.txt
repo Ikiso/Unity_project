@@ -1,0 +1,16 @@
+D:\studio project\3LabaPoOPP\3LabaPoOPP\bin\Debug\net5.0\3LabaPoOPP.exe
+D:\studio project\3LabaPoOPP\3LabaPoOPP\bin\Debug\net5.0\3LabaPoOPP.deps.json
+D:\studio project\3LabaPoOPP\3LabaPoOPP\bin\Debug\net5.0\3LabaPoOPP.runtimeconfig.json
+D:\studio project\3LabaPoOPP\3LabaPoOPP\bin\Debug\net5.0\3LabaPoOPP.runtimeconfig.dev.json
+D:\studio project\3LabaPoOPP\3LabaPoOPP\bin\Debug\net5.0\3LabaPoOPP.dll
+D:\studio project\3LabaPoOPP\3LabaPoOPP\bin\Debug\net5.0\ref\3LabaPoOPP.dll
+D:\studio project\3LabaPoOPP\3LabaPoOPP\bin\Debug\net5.0\3LabaPoOPP.pdb
+D:\studio project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.csproj.AssemblyReference.cache
+D:\studio project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.GeneratedMSBuildEditorConfig.editorconfig
+D:\studio project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.AssemblyInfoInputs.cache
+D:\studio project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.AssemblyInfo.cs
+D:\studio project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.csproj.CoreCompileInputs.cache
+D:\studio project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.dll
+D:\studio project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\ref\3LabaPoOPP.dll
+D:\studio project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.pdb
+D:\studio project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.genruntimeconfig.cache
