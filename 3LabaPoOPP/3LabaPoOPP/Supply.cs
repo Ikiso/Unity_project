@@ -34,7 +34,7 @@ namespace _3LabaPoOPP
         }
         ~Supply()
         {
-            throw new System.NotImplementedException();
+            
         }
 
         public Order Order
@@ -61,7 +61,7 @@ namespace _3LabaPoOPP
             }
         }
 
-        public Poduct Poduct
+        public Product Product
         {
             get => default;
             set
