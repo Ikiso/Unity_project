@@ -10,7 +10,7 @@ namespace _3LabaPoOPP
         private int _number;
         private string _customerCompanyAdress;
 
-        public Supply()
+        public Supply(int number, string _customerCompanyAdress)
         {
 
 
@@ -34,7 +34,7 @@ namespace _3LabaPoOPP
         }
         ~Supply()
         {
-            
+            throw new System.NotImplementedException();
         }
 
         public Order Order
@@ -61,7 +61,7 @@ namespace _3LabaPoOPP
             }
         }
 
-        public Product Product
+        public Poduct Poduct
         {
             get => default;
             set
