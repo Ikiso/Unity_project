@@ -14,13 +14,43 @@ namespace _3LabaPoOPP
 
         public Order()
         {
-            throw new System.NotImplementedException();
+
+
+        }
+        public Order(int number, int amount, int time, string _customerCompanyName)
+        {
+            _number = Number;
+            _amount = Amount;
+            _time = Time;
+            _customerCompanyName = СustomerCompanyName;
         }
 
+        public int Number
+        {
+            get => _number;
+            set => _number = value;
+        }
+        public int Amount
+        {
+            get => _amount;
+            set => _amount = value;
+        }
+        public int Time
+        {
+            get => _time;
+            set => _time = value;
+        }
+
+        public string СustomerCompanyName
+        {
+            get => _customerCompanyName;
+            set => _customerCompanyName = value;
+        }
         ~Order()
         {
-            throw new System.NotImplementedException();
+
         }
+
 
         public Company Company
         {

@@ -34,7 +34,7 @@ namespace _3LabaPoOPP
         }
         ~Supply()
         {
-            throw new System.NotImplementedException();
+           
         }
 
         public Order Order
