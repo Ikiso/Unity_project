@@ -10,7 +10,7 @@ namespace _3LabaPoOPP
         private int _number;
         private string _customerCompanyAdress;
 
-        public Supply(int number, string _customerCompanyAdress)
+        public Supply()
         {
 
 
