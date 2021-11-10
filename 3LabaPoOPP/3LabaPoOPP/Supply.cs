@@ -13,7 +13,6 @@ namespace _3LabaPoOPP
         public Supply()
         {
 
-
         }
         public Supply(int number, string _customerCompanyAdress)
         {
