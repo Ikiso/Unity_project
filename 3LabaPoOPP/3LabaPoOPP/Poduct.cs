@@ -9,7 +9,32 @@ namespace _3LabaPoOPP
     {
         private string _type;
         private int _weight;
+        public Poduct()
+        {
 
+
+        }
+        public Poduct(int Weight, string _type)
+        {
+            _weight = Weight;
+            _type = Type;
+        }
+
+        public int Weight
+        {
+            get => _weight;
+            set => _weight = value;
+        }
+
+        public string Type
+        {
+            get => _type;
+            set => _type = value;
+        }
+        ~Poduct()
+        {
+
+        }
         public Order Order
         {
             get => default;
@@ -18,9 +43,10 @@ namespace _3LabaPoOPP
             }
         }
 
-        public void Product()
-        {
-            throw new System.NotImplementedException();
-        }
+        //???????????
+        //public void Product()
+        //{
+            
+        //}
     }
 }
