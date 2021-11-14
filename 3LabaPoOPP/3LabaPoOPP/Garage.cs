@@ -8,7 +8,7 @@ namespace _3LabaPoOPP
     public class Garage
     {
         private int _amount;
-        private List<string> _storedTransport;
+        static List<Vehicle> _storedTransport;
         private string _name;
         //private string _cost //Стоимость аренды или ежемесячные затраты
 
@@ -21,7 +21,8 @@ namespace _3LabaPoOPP
         {
             _name = Name;
             _amount = Amount;
-            _storedTransport = StoregTransport;
+            _storedTransport = new List<Vehicle>();
+            //_storedTransport = StoregTransport;
         }
         ~Garage()
         {
@@ -37,23 +38,23 @@ namespace _3LabaPoOPP
             get => _name;
             private set => _name = value;
         }
-        public List<string> StoregTransport
+        //public List<Vehicle> StoregTransport
+        //{
+        //    get => _storedTransport;
+        //    set => _storedTransport = new List<Vehicle>();
+        //}
+        public void AddCar(Vehicle vehicle)
         {
-            get => _storedTransport;
-            private set => _storedTransport = new List<string>();
-        }
-        public void AddCar(string Name)
-        {
-            _storedTransport.Add(Name);
+            _storedTransport.Add(vehicle);
             _storedTransport.Sort(); //Сортирует список
         }
-        public void DeleteCar(string Name)
+        public void DeleteCar(Vehicle vehicle)
         {
-            foreach(string str in _storedTransport)
+            foreach(Vehicle veh in _storedTransport)
             {
-                if (str == Name)
+                if (veh == vehicle)
                 {
-                    _storedTransport.Remove(str);
+                    _storedTransport.Remove(veh);
                     return;
                 }
             }
@@ -62,9 +63,10 @@ namespace _3LabaPoOPP
         }
         public void ViewVehicle()
         {
-            foreach (string str in _storedTransport)
+            foreach (Vehicle vehicle in _storedTransport)
             {
-                Console.WriteLine("{1}\n");
+                //Console.WriteLine("{1}\n", vehicle._model);
+                vehicle.Draw();
             }
         }
         public int Filling() //Сколько сейчас машин в Гараже

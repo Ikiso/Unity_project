@@ -11,7 +11,7 @@ namespace _3LabaPoOPP
     public class Vehicle : IMove, IMove2
     {
         public Vector2 direction;
-        private string _model;
+        public string _model;
         private int _cost;
         private string _year;
         private string _typeFuel;
@@ -36,7 +36,7 @@ namespace _3LabaPoOPP
         public string Model
         {
             get => _model;
-            private set => _model = value;
+            set => _model = value;
         }
 
         public int Cost
@@ -79,6 +79,11 @@ namespace _3LabaPoOPP
         {
             Console.WriteLine("Model is: {0}, Cost is: {1}, Year is: {2}, Fuel is: {3}, Speed is {4}, Health is {5}", _model, _cost, _year, _typeFuel, speed, health);
         }
+        public virtual void Draw()
+        {
+
+            Console.WriteLine("Model is: {0}, Cost is: {1}, Year is: {2}, Fuel is: {3}, Speed is {4}, Health is {5}", _model, _cost, _year, _typeFuel, speed, health);
+        }
         void IMove.MovementLogic()
         {
             // т.к. мы сейчас решили использовать физическое движение снова,
@@ -95,6 +100,7 @@ namespace _3LabaPoOPP
             get => default;
             set
             {
+                
             }
         }
     }

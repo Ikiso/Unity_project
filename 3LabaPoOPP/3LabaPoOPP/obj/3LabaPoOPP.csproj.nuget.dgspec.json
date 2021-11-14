@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\girproje\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\3LabaPoOPP.csproj": {}
+    "C:\\Documents\\Учёба\\C#\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\3LabaPoOPP.csproj": {}
   },
   "projects": {
-    "D:\\girproje\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\3LabaPoOPP.csproj": {
+    "C:\\Documents\\Учёба\\C#\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\3LabaPoOPP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\girproje\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\3LabaPoOPP.csproj",
+        "projectUniqueName": "C:\\Documents\\Учёба\\C#\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\3LabaPoOPP.csproj",
         "projectName": "3LabaPoOPP",
-        "projectPath": "D:\\girproje\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\3LabaPoOPP.csproj",
-        "packagesPath": "C:\\Users\\stalk\\.nuget\\packages\\",
-        "outputPath": "D:\\girproje\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\obj\\",
+        "projectPath": "C:\\Documents\\Учёба\\C#\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\3LabaPoOPP.csproj",
+        "packagesPath": "C:\\Users\\Денис\\.nuget\\packages\\",
+        "outputPath": "C:\\Documents\\Учёба\\C#\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\stalk\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Денис\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

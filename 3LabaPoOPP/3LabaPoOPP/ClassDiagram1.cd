@@ -12,12 +12,12 @@
     <InheritanceLine Type="_3LabaPoOPP.Vehicle" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
         <Point X="2.688" Y="4.75" />
-        <Point X="2.688" Y="4.438" />
-        <Point X="3.75" Y="4.438" />
+        <Point X="2.688" Y="4.258" />
+        <Point X="3.75" Y="4.258" />
       </Path>
     </InheritanceLine>
     <TypeIdentifier>
-      <HashCode>AAAAAACAAAAQAhAAAQAAAAAAAAAAgAAAAAQAAAEAAAA=</HashCode>
+      <HashCode>AAAAAACAAAAQABAAAQAAAAAAAAAAgAAAAAQAAAEAAAA=</HashCode>
       <FileName>Truck.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -92,8 +92,8 @@
         <Point X="5.875" Y="8.25" />
         <Point X="5.875" Y="6.96" />
         <Point X="6.13" Y="6.96" />
-        <Point X="6.13" Y="4.341" />
-        <Point X="5.5" Y="4.341" />
+        <Point X="6.13" Y="4.167" />
+        <Point X="5.5" Y="4.167" />
       </Path>
     </AssociationLine>
     <AssociationLine Name="Train" Type="_3LabaPoOPP.Train" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
@@ -122,7 +122,7 @@
       </Path>
     </AssociationLine>
     <TypeIdentifier>
-      <HashCode>AgAAIABAAQAAAAACAAAAAASAkAAAAAAAAABABAAAAAA=</HashCode>
+      <HashCode>AgAAIABAAQAAAAACAAAAAASAgAAAAAAAAABABAAAAAA=</HashCode>
       <FileName>Garage.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -143,8 +143,7 @@
     <Position X="1.5" Y="4.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAECAKABCAQIgAAAhAAABIBAAAAAQAAAAgACAAAAAg=</HashCode>
-      <FileName>Vehicle.cs</FileName>
-      <NewMemberFileName>vehicle.cs</NewMemberFileName>
+      <FileName>vehicle.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Garage" />
@@ -180,33 +179,6 @@
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Train" />
-      <Property Name="Poduct" />
-    </ShowAsAssociation>
-  </Class>
-  <Class Name="_3LabaPoOPP.Store">
-    <Position X="6.5" Y="9.5" Width="1.5" />
-    <AssociationLine Name="Vehicle" Type="_3LabaPoOPP.Vehicle" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="6.688" Y="9.5" />
-        <Point X="6.688" Y="7.895" />
-        <Point X="5.958" Y="7.895" Type="JumpStart" />
-        <Point X="5.792" Y="7.895" Type="JumpEnd" />
-        <Point X="3.25" Y="7.895" />
-      </Path>
-    </AssociationLine>
-    <AssociationLine Name="Poduct" Type="_3LabaPoOPP.Poduct" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="7.312" Y="9.5" />
-        <Point X="7.312" Y="8.843" />
-        <Point X="8.5" Y="8.843" />
-      </Path>
-    </AssociationLine>
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Store.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Vehicle" />
       <Property Name="Poduct" />
     </ShowAsAssociation>
   </Class>

@@ -17,8 +17,15 @@ namespace _3LabaPoOPP
             string _typeFuel = "Oil";
             int speed = 56;
 
+            Garage DED = new Garage("DedInside", 10);
+
             Vehicle trainVehical = new Train( _amountTrain, _maxWorldLoad, _model , _cost, _year, _typeFuel, speed, health);
             Vehicle truckVTruck = new Truck(_model, _cost, _year, _typeFuel, speed, health);
+
+            DED.AddCar(truckVTruck);
+            //DED.AddCar(trainVehical);
+
+            DED.ViewVehicle();
 
             trainVehical.Draw(_model, _cost, _year, _typeFuel, speed, health);
             truckVTruck.Draw(_model, _cost, _year, _typeFuel, speed, health);

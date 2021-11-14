@@ -18,7 +18,7 @@ namespace _3LabaPoOPP
 
         public Truck(string _model, int _cost, string _year, string _typeFuel, int speed, float health)
         {
-            _model = _model;
+            Model = _model;
             _cost = _cost;
             _year = _year;
             _typeFuel = _typeFuel;
@@ -44,11 +44,11 @@ namespace _3LabaPoOPP
             private set => _loadСapacity = value;
         }
 
-        public override void Draw(string _model, int _cost, string _year, string _typeFuel, int speed, float health)
-        {
-            Console.WriteLine("Данные по транспорту:\n");
-            base.Draw(_model, _cost, _year, _typeFuel, speed, health);
-        }
+        //public override void Draw(string _model, int _cost, string _year, string _typeFuel, int speed, float health)
+        //{
+        //    Console.WriteLine("Данные по транспорту:\n");
+        //    base.Draw(_model, _cost, _year, _typeFuel, speed, health);
+        //}
 
         public override float SetDamage(float _health)
         {
