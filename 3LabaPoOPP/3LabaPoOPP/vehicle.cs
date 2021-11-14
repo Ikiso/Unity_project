@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Specialized;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Numerics;
 
 namespace _3LabaPoOPP
 {
-    public class Vehicle
+    public class Vehicle : IMove, IMove2
     {
         public Vector2 direction;
         private string _model;
@@ -14,14 +16,14 @@ namespace _3LabaPoOPP
         private string _year;
         private string _typeFuel;
         public int speed;
-        private float health;
+        public float health;
 
         public Vehicle()
         {
-            
+
         }
 
-        public Vehicle(string _model)
+        public Vehicle(string _model, int _cost, string _year, string _typeFuel, int speed, float health)
         {
             _model = Model;
             _cost = Cost;
@@ -68,14 +70,25 @@ namespace _3LabaPoOPP
 
         public virtual float SetDamage(float health)
         {
-            health = health % 4;
-            if(health != 0)
+            health = health - 2;
+            if (health != 0)
                 return health;
             return 0;
         }
-        public virtual void Draw()
+        public virtual void Draw(string _model, int _cost, string _year, string _typeFuel,int speed,float health)
         {
-            Console.WriteLine("{0} , {1} , {2}, {3} , {4} , {5}, {6}", _model, _cost , _year, _typeFuel, speed, health);
+            Console.WriteLine("Model is: {0}, Cost is: {1}, Year is: {2}, Fuel is: {3}, Speed is {4}, Health is {5}", _model, _cost, _year, _typeFuel, speed, health);
+        }
+        void IMove.MovementLogic()
+        {
+            // т.к. мы сейчас решили использовать физическое движение снова,
+            //transform.Translate(_movementVector.normalized * speed);
+            Console.WriteLine("ДВИЖЕНИЕ ПЕРВОЕ, через таймер\n");
+        }
+
+        void IMove2.MovementLogic()
+        {
+            Console.WriteLine("Движение происходит в консоле, иго-го\n");
         }
         public Garage Garage
         {

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\stalk\\OneDrive\\Рабочий стол\\Unity_project-main\\3LabaPoOPP\\3LabaPoOPP\\3LabaPoOPP.csproj",
+      "projectUniqueName": "D:\\girproje\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\3LabaPoOPP.csproj",
       "projectName": "3LabaPoOPP",
-      "projectPath": "C:\\Users\\stalk\\OneDrive\\Рабочий стол\\Unity_project-main\\3LabaPoOPP\\3LabaPoOPP\\3LabaPoOPP.csproj",
+      "projectPath": "D:\\girproje\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\3LabaPoOPP.csproj",
       "packagesPath": "C:\\Users\\stalk\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\stalk\\OneDrive\\Рабочий стол\\Unity_project-main\\3LabaPoOPP\\3LabaPoOPP\\obj\\",
+      "outputPath": "D:\\girproje\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
