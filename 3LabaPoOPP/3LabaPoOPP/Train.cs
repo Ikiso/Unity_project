@@ -7,7 +7,7 @@ using System.Text;
 
 namespace _3LabaPoOPP
 {
-    public class Train : Vehicle, IMove
+    public class Train : Vehicle
     {
         private List<train> _listamountTrain;
         private int _maxWorldLoad;
@@ -23,10 +23,16 @@ namespace _3LabaPoOPP
 
         }
 
-        public Train(int _amountTrain, int _maxWorldLoad)
+        public Train( int _amountTrain, int _maxWorldLoad, string _model, int _cost, string _year, string _typeFuel, int speed, float health)
         {
-            _amountTrain = AmountTrain;
-            _maxWorldLoad = MaxWorldLoad;
+            _amountTrain = _amountTrain;
+            _maxWorldLoad = _maxWorldLoad;
+            _model = _model;
+            _cost = _cost;
+            _year = _year;
+            _typeFuel = _typeFuel;
+            speed = speed;
+            health = SetDamage(health);
         }
 
         public int AmountTrain
@@ -46,7 +52,7 @@ namespace _3LabaPoOPP
             get => _listamountTrain;
             private set => _listamountTrain = value;
         }
-        public bool setListAmontVans(int amount , string type)
+        public bool setListAmontVans(int amount, string type)
         {
             if ((_amountTrain + amount) > maxAmountsTrain)
             {
@@ -55,7 +61,7 @@ namespace _3LabaPoOPP
             }
             else
             {
-                _amountTrain =+ amount;
+                _amountTrain = +amount;
                 train listtemp = default;
                 for (int i = 0; i < _listamountTrain.Count; i++)
                 {
@@ -75,7 +81,7 @@ namespace _3LabaPoOPP
             }
         }
 
-        public bool SoldTrain(int amount , string type)
+        public bool SoldTrain(int amount, string type)
         {
             foreach (train _train in _listamountTrain)
             {
@@ -88,24 +94,15 @@ namespace _3LabaPoOPP
             Debug.Print("Невозможно продать поезд, т.к у вас их нет");
             return false;
         }
-        public override void Draw()
+        public new void Draw(string _model, int _cost, string _year, string _typeFuel, int speed, float health)
         {
-            Console.WriteLine("Данные по транспорту:\n");
-            base.Draw();
+            Console.WriteLine("Данные по поезду:\n");
+            base.Draw(_model, _cost, _year, _typeFuel, speed, health);
         }
-        public override float SetDamage(float _health)
+        public new float SetDamage(float health)
         {
-            return base.SetDamage(_health);
+            return base.SetDamage(health);
         }
 
-        void FixedUpdate()
-        {
-            MovementLogic();
-        }
-        public void MovementLogic()
-        {
-            // т.к. мы сейчас решили использовать физическое движение снова,
-            transform.Translate(_movementVector.normalized * Speed);
-        }
     }
 }

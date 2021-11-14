@@ -6,7 +6,7 @@ using System.Threading.Tasks.Dataflow;
 
 namespace _3LabaPoOPP
 {
-    public class Truck : Vehicle, IMove
+    public class Truck : Vehicle
     {
         private string _callSign;
         private string _driver;
@@ -14,12 +14,16 @@ namespace _3LabaPoOPP
 
         public Truck()
         {
-
         }
 
-        public Truck(string _callSign)
+        public Truck(string _model, int _cost, string _year, string _typeFuel, int speed, float health)
         {
-
+            _model = _model;
+            _cost = _cost;
+            _year = _year;
+            _typeFuel = _typeFuel;
+            speed = speed;
+            health = SetDamage(health);
         }
 
         public string CallSign
@@ -40,24 +44,15 @@ namespace _3LabaPoOPP
             private set => _loadСapacity = value;
         }
 
-        public override void Draw()
+        public override void Draw(string _model, int _cost, string _year, string _typeFuel, int speed, float health)
         {
             Console.WriteLine("Данные по транспорту:\n");
-            base.Draw();
+            base.Draw(_model, _cost, _year, _typeFuel, speed, health);
         }
 
         public override float SetDamage(float _health)
         {
             return base.SetDamage(_health);
-        }
-        void FixedUpdate()
-        {
-            MovementLogic();
-        }
-        public void MovementLogic()
-        {
-            // т.к. мы сейчас решили использовать физическое движение снова,
-            transform.Translate(_movementVector.normalized * speed);
         }
         ~Truck()
         {

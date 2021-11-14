@@ -51,7 +51,6 @@ namespace _3LabaPoOPP
 
         }
 
-
         public Company Company
         {
             get => default;

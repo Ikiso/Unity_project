@@ -37,4 +37,5 @@ namespace _3LabaPoOPP
             private set => _adress = value;
         }
     }
+
 }

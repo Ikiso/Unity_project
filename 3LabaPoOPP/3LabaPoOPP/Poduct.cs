@@ -43,10 +43,5 @@ namespace _3LabaPoOPP
             }
         }
 
-        //???????????
-        //public void Product()
-        //{
-            
-        //}
     }
 }
