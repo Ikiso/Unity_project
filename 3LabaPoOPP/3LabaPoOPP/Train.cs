@@ -52,7 +52,7 @@ namespace _3LabaPoOPP
             get => _listamountTrain;
             private set => _listamountTrain = value;
         }
-        public bool setListAmontVans(int amount, string type)
+        public bool SetListAmontVans(int amount, string type)
         {
             if ((_amountTrain + amount) > maxAmountsTrain)
             {

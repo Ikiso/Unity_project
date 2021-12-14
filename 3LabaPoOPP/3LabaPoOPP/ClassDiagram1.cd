@@ -42,12 +42,12 @@
     <Position X="6.25" Y="3.75" Width="1.5" />
     <AssociationLine Name="Warehouse" Type="_3LabaPoOPP.Warehouse" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="7.625" Y="6.459" />
-        <Point X="7.625" Y="6.524" />
-        <Point X="9.167" Y="6.524" Type="JumpStart" />
-        <Point X="9.333" Y="6.524" Type="JumpEnd" />
-        <Point X="11.636" Y="6.524" />
-        <Point X="11.636" Y="4.623" />
+        <Point X="7.375" Y="6.459" />
+        <Point X="7.375" Y="6.805" />
+        <Point X="9.167" Y="6.805" Type="JumpStart" />
+        <Point X="9.333" Y="6.805" Type="JumpEnd" />
+        <Point X="11.375" Y="6.805" />
+        <Point X="11.375" Y="4.622" />
       </Path>
     </AssociationLine>
     <AssociationLine Name="Poduct" Type="_3LabaPoOPP.Poduct" FixedFromPoint="true" FixedToPoint="true">
@@ -69,7 +69,7 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="_3LabaPoOPP.Warehouse">
-    <Position X="10.25" Y="0.5" Width="1.75" />
+    <Position X="10.75" Y="0.5" Width="1.75" />
     <NestedTypes>
       <Struct Name="_3LabaPoOPP.Warehouse.goods" Collapsed="true">
         <TypeIdentifier>
@@ -86,19 +86,19 @@
     </ShowAsAssociation>
   </Class>
   <Class Name="_3LabaPoOPP.Support">
-    <Position X="4.25" Y="8.25" Width="1.75" />
+    <Position X="5" Y="8.25" Width="1.75" />
     <AssociationLine Name="Truck" Type="_3LabaPoOPP.Truck" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="5.875" Y="8.25" />
-        <Point X="5.875" Y="6.96" />
-        <Point X="6.13" Y="6.96" />
-        <Point X="6.13" Y="4.341" />
+        <Point X="6.375" Y="8.25" />
+        <Point X="6.375" Y="6.96" />
+        <Point X="6.005" Y="6.96" />
+        <Point X="6.005" Y="4.341" />
         <Point X="5.5" Y="4.341" />
       </Path>
     </AssociationLine>
     <AssociationLine Name="Train" Type="_3LabaPoOPP.Train" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
       <Path>
-        <Point X="4.25" Y="10.188" />
+        <Point X="5" Y="10.188" />
         <Point X="3.498" Y="10.188" />
         <Point X="3.498" Y="10.188" />
         <Point X="3.25" Y="10.188" />
@@ -143,8 +143,7 @@
     <Position X="1.5" Y="4.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAECAKABCAQIgAAAhAAABIBAAAAAQAAAAgACAAAAAg=</HashCode>
-      <FileName>Vehicle.cs</FileName>
-      <NewMemberFileName>vehicle.cs</NewMemberFileName>
+      <FileName>vehicle.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Garage" />
@@ -161,7 +160,7 @@
       </Struct>
     </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AEAAAgCAABAAAgAAEAAAAAAAAQQABAACAAAAAAQAAAA=</HashCode>
+      <HashCode>AEAAAACAABCAAgAAEAAAAAAAAQQABAACAAAAAAQAAAA=</HashCode>
       <FileName>Train.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -180,33 +179,6 @@
     </TypeIdentifier>
     <ShowAsAssociation>
       <Property Name="Train" />
-      <Property Name="Poduct" />
-    </ShowAsAssociation>
-  </Class>
-  <Class Name="_3LabaPoOPP.Store">
-    <Position X="6.5" Y="9.5" Width="1.5" />
-    <AssociationLine Name="Vehicle" Type="_3LabaPoOPP.Vehicle" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="6.688" Y="9.5" />
-        <Point X="6.688" Y="7.895" />
-        <Point X="5.958" Y="7.895" Type="JumpStart" />
-        <Point X="5.792" Y="7.895" Type="JumpEnd" />
-        <Point X="3.25" Y="7.895" />
-      </Path>
-    </AssociationLine>
-    <AssociationLine Name="Poduct" Type="_3LabaPoOPP.Poduct" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="7.312" Y="9.5" />
-        <Point X="7.312" Y="8.843" />
-        <Point X="8.5" Y="8.843" />
-      </Path>
-    </AssociationLine>
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Store.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="Vehicle" />
       <Property Name="Poduct" />
     </ShowAsAssociation>
   </Class>
