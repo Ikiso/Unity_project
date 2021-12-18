@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3LabaPoOPP", "3LabaPoOPP\3LabaPoOPP.csproj", "{5BACC3EF-9B5E-4ABA-8110-2FD0FF701BF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3LabaPoOPP", "3LabaPoOPP\3LabaPoOPP.csproj", "{5BACC3EF-9B5E-4ABA-8110-2FD0FF701BF5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{43E9040D-11A1-4095-83F9-001501D8CECD} = {43E9040D-11A1-4095-83F9-001501D8CECD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formA", "formA\formA.csproj", "{43E9040D-11A1-4095-83F9-001501D8CECD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{5BACC3EF-9B5E-4ABA-8110-2FD0FF701BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BACC3EF-9B5E-4ABA-8110-2FD0FF701BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BACC3EF-9B5E-4ABA-8110-2FD0FF701BF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43E9040D-11A1-4095-83F9-001501D8CECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43E9040D-11A1-4095-83F9-001501D8CECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43E9040D-11A1-4095-83F9-001501D8CECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43E9040D-11A1-4095-83F9-001501D8CECD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

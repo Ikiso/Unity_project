@@ -454,23 +454,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\stalk\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\POLACK\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\girproje\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\3LabaPoOPP.csproj",
+      "projectUniqueName": "D:\\gin_pr\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\3LabaPoOPP.csproj",
       "projectName": "3LabaPoOPP",
-      "projectPath": "D:\\girproje\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\3LabaPoOPP.csproj",
-      "packagesPath": "C:\\Users\\stalk\\.nuget\\packages\\",
-      "outputPath": "D:\\girproje\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\obj\\",
+      "projectPath": "D:\\gin_pr\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\3LabaPoOPP.csproj",
+      "packagesPath": "C:\\Users\\POLACK\\.nuget\\packages\\",
+      "outputPath": "D:\\gin_pr\\Unity_project\\3LabaPoOPP\\3LabaPoOPP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\stalk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\POLACK\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -517,7 +517,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

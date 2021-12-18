@@ -30,3 +30,11 @@ D:\girproje\Unity_project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.dll
 D:\girproje\Unity_project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\ref\3LabaPoOPP.dll
 D:\girproje\Unity_project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.pdb
 D:\girproje\Unity_project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.genruntimeconfig.cache
+D:\gin_pr\Unity_project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.csproj.AssemblyReference.cache
+D:\gin_pr\Unity_project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.GeneratedMSBuildEditorConfig.editorconfig
+D:\gin_pr\Unity_project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.AssemblyInfoInputs.cache
+D:\gin_pr\Unity_project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.AssemblyInfo.cs
+D:\gin_pr\Unity_project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.csproj.CoreCompileInputs.cache
+D:\gin_pr\Unity_project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.dll
+D:\gin_pr\Unity_project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\ref\3LabaPoOPP.dll
+D:\gin_pr\Unity_project\3LabaPoOPP\3LabaPoOPP\obj\Debug\net5.0\3LabaPoOPP.pdb
